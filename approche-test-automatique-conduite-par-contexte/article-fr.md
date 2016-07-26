@@ -66,3 +66,5 @@ so much more than that.
 3. Automated output checking is interesting, but
 tools do so much more than that.
 
+<img src="images/figure1.png" alt="Figure 1" width="200" />
+###### "Figure 1"
