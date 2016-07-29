@@ -46,7 +46,7 @@ terrible waste, confusion, and pain to what is already difficult even in the bes
 good testing, then good tool support will be part of the picture, and that means you must learn
 why we go wrong with tools
 
-# Des Robots ! A l'aide !
+# Les Robots ! A l'aide !
 > Robots! Help!
 
 Nous pouvons résumer la pensée dominante sur l'automatisation comme "automatiser le test en automatisant l'utilisateur". Nous ne sommes pas en train de dire que des gens ont littéralement dit cela mais c'est ce qu'ils ont exactement essayé de faire. Nous voyons au moins trois grands problèmes ici qui tendent à banaliser le test :
@@ -68,3 +68,25 @@ tools do so much more than that.
 
 <img src="images/figure1.png" alt="Figure 1" width="200" />
 ###### "Figure 1"
+
+L'automatisation est présentée comme une histoire savoureuse et digeste : "remplacer l'humanité désordonnée et complexe par des robots fiables, rapides et efficaces ! Considérons la [Figure 1](images/figure1.png)". Elle résume exactement cette vision impressionnante : "Automatiser les trucs fastidieux". Ok. Qu'est-ce que l'image nous montre ?
+
+> Automation comes with a tasty and digestible story:
+replace messy, complex humanity with reliable, fast,
+efficient robots! Consider Figure 1. It perfectly
+summarizes the impressive vision: “Automate the Boring
+Stuff.” Okay. What does the picture show us?
+
+*Elle nous montre une machine qui prétant fonctionner comme un humain*. Le robot est construit comme un humanoïde. Il utilise un outil normalement manipulé par des humains, exactement de la même manière que des humains le feraient, plutôt que par une interface plus adaptée aux robots. Il n'y a aucune description du procédé de programmation du robot ou de son contrôle, ou de sa correction quand il se tromperait. Il n'y a pas d'autres robots en arrière-plan. Le rôle de l'humain dans cette scène n'est pas représenté. Aucun humain apparaît même en arrière-plan. Le message est : les robots remplacent les humains dans des tâches sans intérêt, sans changer la nature du processus, et sans aucune trace de présence humaine, d'une indication, ou d'un but. Est-ce de l'automatisation ? Est-ce comme cela que ça marche ? Non !
+
+> It shows us a machine that is intended to function as a
+human. The robot is constructed as a humanoid. It is
+using a tool normally operated by humans, in exactly the
+way that humans would operate it, rather than through
+an interface more suited to robots. There is no depiction of the process of programming the robot
+or controlling it, or correcting it when it errs. There are no broken down robots in the background.
+The human role in this scene is not depicted. No human appears even in the background. The
+message is: robots replace humans in uninteresting tasks without changing the nature of the
+process, and without any trace of human presence, guidance, or purpose. Is that what automation
+is? Is that how it works? No!
+
