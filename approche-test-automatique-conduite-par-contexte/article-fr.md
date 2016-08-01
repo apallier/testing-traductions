@@ -96,7 +96,10 @@ Bien sûr, il s'agit d'un dessin légé à ne pas prendre au sérieux. Mais le p
 over the industry, we see clients thinking about real testing, real automation, and real people in
 just this cartoonish way. The trouble that comes from that is serious.
 
-Comment ça sérieux ? Notre expérience nous a montré, en regardant les projets depuis les années 80, qu'il apparait normal que l'effort d'automatisation à grande échelle impute la majeure partie des budgets à la détection de bogues triviales et évidentes sur l'interface graphique, en ne prennant pas le temps et l'effort nécessaire à la recherche de problèmes serieux mais subtils - que nous appelons les bogues "graves". En outre, l'approche typique de l'automatisation est comme le personne d'une machine de Rube Goldberg - nageant entre les dépendances et quasi comiquement sujette aux pannes. Ce type d'automatisation devient un peu comme un nouveau membre du projet; comme si c'était une femme de ménage à la "maintenance couteuse", obsessionnelle et compulsive qui ne voudrait pas entrer dans la maison si celle-ci n'est pas déjà impeccable.
+Sérieux comment ? Notre expérience nous a montré, en regardant les projets depuis les années 80, qu'il apparait normal que l'effort d'automatisation à grande échelle impute la majeure partie des budgets à la détection de bogues triviales et évidents sur l'interface graphique, en ne prennant pas le temps et l'effort nécessaire à la recherche de problèmes serieux mais subtils - que nous appelons les bogues "graves". En outre, l'approche typique de l'automatisation est comme le personne d'une machine de Rube Goldberg - nageant entre les dépendances et quasi comiquement sujette aux pannes. Ce type d'automatisation devient un peu comme un nouveau membre du projet; comme si c'était une femme de ménage à la "maintenance couteuse", obsessionnelle et compulsive qui ne voudrait pas entrer dans la maison si celle-ci n'est pas déjà impeccable. Nous croyons que l'effort typiquement investi dans l'automatisation devrait mieux, dans la plupart des cas, être investi directement dans les humains qui interagissent avec le produit d'une manière complexe et sophistiquée (ce qui permet aussi de trouver les bugs "faciles") et aussi dans des outils moins coûteux à maintenir ce qui aidera les testeurs à mieux tester. 
+
+<img src="images/figure2.png" alt="Figure 1" width="200" />
+###### "Figure 2 : Dessin de Rude Goldberg"
 
 > How serious? In the experience of the authors, observing projects going back to the 80’s, we find
 that it is normal for large scale automation efforts to lavish the bulk of their budgets in the detection of
@@ -104,17 +107,15 @@ trivial and obvious GUI-level bugs, drawing much needed time and effort away fro
 serious but subtle problems—what we call deep bugs. Furthermore, the typical automation approach
 has the character of a Rube Goldberg machine— swimming in dependencies and almost comically
 prone to breakdown. 1 This sort of automation becomes almost like a new stakeholder on the project; as with some obsessive-compulsive “high maintenance” cleaning lady who won’t even enter the house until it is already spotless. 
-
-
-> We believe
-the effort typically invested in automation would in most cases be better invested directly into
+We believe the effort typically invested in automation would in most cases be better invested directly into
 humans interacting with the product in complex and sophisticated ways (which also finds the
 shallow bugs) and into less expensive supporting tools that help testers test better.
-No one can deny that automation tool sales demos are impressive. What we deny is that people
+
+Personne ne peut nier que les demonstrations commerciales des outils d'automatisation sont impressionnantes. Ce que nous dénonçons c'est que les gens sont d'accord sur ce que l'automatisation signifie et ce qu'elle devrait être, et ce que ces démonstrations commerciales traduisent en terme de valeur réelle sur des projets ordinaires.
+
+> No one can deny that automation tool sales demos are impressive. What we deny is that people
 agree on what “automation” means, what it should be, and that those sales demos translate into
 practical value on ordinary projects.
-
-
 
 
 
