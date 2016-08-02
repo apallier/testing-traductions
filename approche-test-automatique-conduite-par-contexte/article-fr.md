@@ -98,7 +98,7 @@ just this cartoonish way. The trouble that comes from that is serious.
 
 Sérieux comment ? Notre expérience nous a montré, en regardant les projets depuis les années 80, qu'il apparait normal que l'effort d'automatisation à grande échelle impute la majeure partie des budgets à la détection de bogues triviales et évidents sur l'interface graphique, en ne prennant pas le temps et l'effort nécessaire à la recherche de problèmes serieux mais subtils - que nous appelons les bogues "graves". En outre, l'approche typique de l'automatisation est comme le personne d'une machine de Rube Goldberg - nageant entre les dépendances et quasi comiquement sujette aux pannes. Ce type d'automatisation devient un peu comme un nouveau membre du projet; comme si c'était une femme de ménage à la "maintenance couteuse", obsessionnelle et compulsive qui ne voudrait pas entrer dans la maison si celle-ci n'est pas déjà impeccable. Nous croyons que l'effort typiquement investi dans l'automatisation devrait mieux, dans la plupart des cas, être investi directement dans les humains qui interagissent avec le produit d'une manière complexe et sophistiquée (ce qui permet aussi de trouver les bugs "faciles") et aussi dans des outils moins coûteux à maintenir ce qui aidera les testeurs à mieux tester. 
 
-<img src="images/figure2.png" alt="Figure 1" width="200" />
+<img src="images/figure2.png" alt="Figure 1" width="300" />
 ###### "Figure 2 : Dessin de Rude Goldberg"
 
 > How serious? In the experience of the authors, observing projects going back to the 80’s, we find
@@ -106,16 +106,29 @@ that it is normal for large scale automation efforts to lavish the bulk of their
 trivial and obvious GUI-level bugs, drawing much needed time and effort away from the hunt for
 serious but subtle problems—what we call deep bugs. Furthermore, the typical automation approach
 has the character of a Rube Goldberg machine— swimming in dependencies and almost comically
-prone to breakdown. 1 This sort of automation becomes almost like a new stakeholder on the project; as with some obsessive-compulsive “high maintenance” cleaning lady who won’t even enter the house until it is already spotless. 
+prone to breakdown.<sup>1</sup> This sort of automation becomes almost like a new stakeholder on the project; as with some obsessive-compulsive “high maintenance” cleaning lady who won’t even enter the house until it is already spotless. 
 We believe the effort typically invested in automation would in most cases be better invested directly into
 humans interacting with the product in complex and sophisticated ways (which also finds the
 shallow bugs) and into less expensive supporting tools that help testers test better.
 
-Personne ne peut nier que les demonstrations commerciales des outils d'automatisation sont impressionnantes. Ce que nous dénonçons c'est que les gens sont d'accord sur ce que l'automatisation signifie et ce qu'elle devrait être, et ce que ces démonstrations commerciales traduisent en terme de valeur réelle sur des projets ordinaires.
+Personne ne peut nier que les demonstrations commerciales des outils d'automatisation sont impressionnantes. Ce que nous nions c'est que ces personnes partagent la même singification du mot "automatisation" ou ce qu'elle devrait être, et aussi que ces démonstrations commerciales apportent une valeur ajoutée sur des projets ordinaires.
 
 > No one can deny that automation tool sales demos are impressive. What we deny is that people
 agree on what “automation” means, what it should be, and that those sales demos translate into
 practical value on ordinary projects.
 
+[1] Une fois, James a été appelé pour aider un projet qui avait plus de 3000 scripts automatisés, développer sur une période de 9 mois. James a demandé à les voir s'exécuter, après quoi il s'est révélé qu'ils avaient été tous "cassés" par la mise à jour récente de leur coûteux outil commercial de test et par les mises à jours de leur propre produit.
 
+> In one case, James was called in to help a project that had “more than 3,000” automated scripts, developed over a nine-month period. James asked to see them executed, whereupon it was revealed that they all had been broken by a recent update to their expensive commercial test tool and ongoing updates to their own product.
+
+# Le problème avec "l'Automatisation"
+
+> The Trouble with “Automation”
+
+Le problème avec les "test automatisé" commence avec les mots eux-même. Le Test est une partie du travail creatir et critique qui a lieu dans l'atelier de conception mais "l'automatisation" encourage les gens à penser à un travail sur une chaîne de montage mécanisée dans une usine.
+
+Le terme "test automatique" est également ambiguë. Il est commun d'entendre dire une phrase du genre "lancer le test automatique", ce qui fait en faite référence aux outils. Une phare comme "le test automatique vaut le coup", fait référence non seulement aux outils mais aussi à toute l'entrepise de création, maintenance, de test et d'exploitation de ces outils. Dans la première sens, le "test automatique" n'est pas humain du tout. Il est incroyablement rapide et peu coûteut également car on n'a pas à payer l'ordinateur. Dans le second sens, le "test automatique" est une activité qualifiée realisée par des humains qui écrivent et exploitent des logiciels pendant des heures, des jours ou des semaines - et ces personnes doivent être payé pour le temps passé à le faire.
+
+> The trouble with “test automation” starts with the words themselves. Testing is a part of the creative and critical work that happens in the design studio, but “automation” encourages people to think of mechanizable assembly-line work done on the factory floor.
+The term “test automation” is also ambiguous. It is common to hear someone say a sentence like “run the test automation,” which refers specifically to tools. A sentence like “test automation is worth doing” refers not only to tools but also to the enterprise of creating, maintaining, testing, and operating those tools. In the first sense, test automation is not human at all. It’s incredibly fast and inexpensive, too, since you don’t pay the computer. In the second sense, test automation is a skilled activity performed by humans who write and operate software over hours, days, or weeks—and those people must be paid for their time.
 
