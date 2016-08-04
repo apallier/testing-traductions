@@ -1,10 +1,16 @@
+# Premièrement: appelons les des outils (et non du "Test autmatique")
 
 > First: Call them tools (not “test automation”).
 
+Nous définissons l'outil comme un artifice humain qui nous aide à remplir un objectif humain. Un outil de test pourrait être un logiciel, un matériel, une carte, un document ou un artefact, ou une quelconque heuristique qui nous aide à à remplir un objectif de test. Nous sommes concernés ici plutôt par des outils de type logiciel.
 
 > We define a tool as any human contrivance that aids in fulfilling a human purpose. A test tool could be software; hardware; a map, document, or artifact; or some other heuristic that aids in fulfilling a testing purpose. We are primarily concerned with software-based tools, here.
 
+Le terme "outil de test" nous conduit à la compréhension ordinaire et usuelle que ces artifices ne fonctionnent pas sans intervention humaine; ils étendent les capacités de l'homme qui se les ai habilement approprié. De plus, le terme "outil" ouvre la porte aux multiples manières dont les outils peuvent alléger la charge et amplifier les capcités des testeurs.
+
 > The term “test tool” connects us to the ordinary, everyday understanding that these contrivances do not work without human guidance; they extend the capabilities of an appropriately skilled human. Moreover, “tool” opens the door to the many ways that tools can lighten burdens and amplify the power of testers.
+
+En même tempsn le terme "Test automatique" menaces de dissocier les gens de leur travail. Pour comprendre pourquoi, vous devez considérer ce que le test est.
 
 > Meanwhile, the term “test automation” threatens to dissociate people from their work. To understand why, you must consider what testing is. To test is to seek the true status of a product, which in complex products is hidden from casual view. Testers do this to discover trouble. A tester, working with limited resources, must sniff out trouble before it’s too late. This requires careful attention to subtle clues in the behavior of the product within a rapid and ongoing learning process. Testers engage in sensemaking, critical thinking, and experimentation, none of which can be done by mechanical means. Yet, in our long experience visiting hundreds of companies and teams, we find managers and technocrats who speak of testing routinely ignore these intellectual processes. We have tried reminding them—and our own colleagues, at times—of these crucial elements that cannot be encoded into test cases or test software. “Oh we agree,” they might say, but then lapse back into speaking exactly as if the essence of testing is somehow expressed in their “test automation.” After years of this struggle, we conclude that the term itself is a sort of narcotic.
 
