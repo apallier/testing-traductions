@@ -13,7 +13,3 @@ Nous observons dans la pratique courante, la tactique pour faire du "Test automa
 
 > We observe that in common parlance, the driving tactic of “test automation” is to script ordinary, rote actions of a user of the product—and a rather complacent, unimaginative user, at that— then get the machinery to punch the keys at dazzling speed, and then check to see whether specified actions and inputs produce specified outputs. From there, it’s a small step to start thinking of “test automation” as a sort of tester in its own right. But even a minimally skilled human tester does far more than blindly adhere to prescribed actions, and observes far more than the output of some function. Humans have complicated lives, agendas, talents, ideas, and problems. Although certain user and tester actions can be simulated, users and testers themselves cannot be replicated in software. Failure to understand this simple truth will trivialize testing, and will allow many bugs to escape our notice.
 How can we think about all this more clearly?
-
-> > "*Nous définissons un outil comme si c'était un artifice humain qui nous aiderait à remplir un but humain*"
-
-> “We define a tool as any human contrivance that aids in fulfilling a human purpose.”
