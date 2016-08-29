@@ -1,6 +1,12 @@
+# Deuxièmement : Penser plus au test qu'à la vérification des résultats
+
 > # Second: Think of testing as much more than output checking.
 
+Pour nous, tester consiste à évaluer un produit en apprenant sur lui au travers d'exploration et d'expérimentation, ce qui comprend dans une certaine mesure : le questionnnement, l'étude, la modélisation, l'observation et la déduction, etc<sup>4</sup>.
+
 > We say that testing is evaluating a product by learning about it through exploration and experimentation, which includes to some degree: questioning, study, modeling, observation and inference, etc. 4
+
+Nous devons choisir nos mots précautionneusement. Le test est nécessairement un processus humain. Seuls des hommes peuvent apprendre. Seuls des hommes peuvent déterminer une valeur. La valeur est un jugement social, et des personnes différentes évaluent les choses différemment. Il se peut que les techniciens croient qu'ils peuvent automatiser l'évaluation des exigences en les codant dans un script, mais l'évaluation est prévisionnelle et incomplète jusqu'à ce qu'elle ai été revu par un humain. Il y aura presque toujours des circonstances où un manager dira "l'outil a rapporté un bug mais ce n'est pas un problème dans ce cas." 
 
 > We choose our words carefully. Testing is necessarily a human process. Only humans can learn. Only humans can determine value. Value is a social judgment, and different people value things differently. Technologists may believe that they can automate the evaluation of requirements by encoding them into a script, but the evaluation is provisional and incomplete until it has been reviewed by a human. There are nearly always circumstances in which a manager will say “the tool is reporting a bug, but it is really not a problem in this case.”
 
