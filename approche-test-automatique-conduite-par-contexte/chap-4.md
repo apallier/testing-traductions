@@ -18,7 +18,12 @@ Finallement, le "etc." de la fin est le signe que le Test implique plein d'autre
 
 > Finally, the “etc.” at the end is a signal that testing incorporates many other analysis-related activities and disciplines. Activities that aren’t themselves testing, such as studying a specification, become testing when done for the purposes of testing.
 
-----------------------
+Décomposons un peu plus le Test. Que faisons nous de spécifique lorsque nous testons ? Le Test est une activité qui impliquent plusieurs types d'activités parallèles et continues:
+* nous concevons nos tests par apprentissage et la modélisation du produit, la détermination des conditions de test, la génération de données de test spécifiques, l'identification et le développement d'oracles (i.e. les moyens de reconnaitre les problèmes lorsqu'on en rencontre), et l'etablissement de procédures pour explorer et expérimenter.
+* nous interagissons avec le produit en le configurant, en le manipulant et en l'observant.
+* nous évaluons le produit en utilisant des oracles appropriés pour détecter les incohérences entre le produit et les qualités que nous pourrions considérer comme idéales.
+* nous comptabilisons et présentons le travail de test réalisé.
+* nous gérons le travail de test, qui inclut la compréhension de l'état courant des tests, l'analyse des risques du produit, le scope et l'attribution des tâches de test.
 
 > Let’s break down testing further. What do we specifically do when we test? Testing is a performance that involves several kinds of ongoing, parallel activities:
 - we design our testing by learning and modelling the product, determining test conditions to cover, generating specific test data, identifying and developing oracles (i.e. the means to recognize problems when we encounter them), and establishing procedures to explore and experiment.
@@ -27,10 +32,17 @@ Finallement, le "etc." de la fin est le signe que le Test implique plein d'autre
 - we record and report the testing work that has been done.
 - we manage the testing work, which includes understanding the current status of testing, analyzing product risk, scoping and assigning testing tasks.
 
+Toutes ces activités peuvent être soutenues avec des outils.
+
 > All of these activities can be helped with tools.
+
+[4] Voir http://www.satisfice.com/blog/archives/856
+[5] "...ce que ces quelques degrés sont, je ne les ai pas encore vérifié expérimentalement; mais il est une notion, qui si elle est pleinement suivie comme est devrait l'être, pourra fortement aider les astronomes à réduire tous les mouvements célestes à une certaine règle, laquelle je doute qu'elle ne soit jamais vraie sans cela..." Robert Hooke, 1674, An Attempt to Prove the Motion of the Earth by Observations, (http://bit.ly/1MDwhBI)
 
 > [4] See http://www.satisfice.com/blog/archives/856
 > [5] “…what these several degrees are I have not yet experimentally verified; but it is a notion, which if fully prosecuted as it ought to be, will mightily assist the astronomer to reduce all the Celestial motions to a certain rule, which I doubt will never be done true without it…” Robert Hooke, 1674, An Attempt to Prove the Motion of the Earth by Observations, (http://bit.ly/1MDwhBI)
+
+---------------------
 
 > ## Distinguish between checking and testing.
 
