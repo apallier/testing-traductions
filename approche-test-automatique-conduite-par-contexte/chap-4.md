@@ -55,15 +55,13 @@ En Test, nous concevons et réalisons des expériences qui nous aident à augmen
 
 > In testing, we design and perform experiments that help us develop our understanding of the status of the product. This understanding is an interpretation; an assessment. But it is not a fact. Simple facts are arguably “verifiable,” but quality is never a simple fact. Quality is a working hypothesis. When you exercise software and fail to spot a specific problem, you have not proven or demonstrated that “it works.” All you know is that you haven’t yet recognized a failure. All you have demonstrated is that the product can work. The product may have failed in a subtle way you did not or cannot yet detect., Maybe it works fine now, but won’t work ten minutes from now. So does it really, truly, deeply work? No output check can tell you that. No collection of output checks can tell you that.
 
-------------------------
-
-En fait, aucun annonceur, présentateur TV de fin de soirée ou magicien peut vous montrer que quelque chose semble marcher. Notre travail en tant que testeur n'est pas d'obéir à l'annonce, d'avaler le spitch ou de croire au tour. Notre travail consiste à comprendre ce que l'annonce oublie de dire, à quel endroit le produit ne répond pas aux attentes, ou comment le magicien pourrait nous tromper. Bien que la vérification routinière des résultats fasse partie de notre travail, nous nous re-concentrons continuellement sur de nouvelles observations en dehors de la routine. Notre attitude doit être d'abord de chercher à trouver des problèmes, et non de vérifier l'absence de problème, sinon nous allons tester de manière superficielle et nous leurer sur la vraie nature du produit.
+En fait, aucun annonceur, présentateur TV de fin de soirée ou magicien peuvent vous montrer que quelque chose semble marcher. Notre travail en tant que testeur n'est pas d'obéir à l'annonce, d'avaler le spitch ou de croire au tour. Notre travail consiste à comprendre ce que l'annonce oublie de dire, à quel endroit le produit ne répond pas aux attentes, ou comment le magicien pourrait nous tromper. Bien que la vérification routinière des résultats fasse partie de notre travail, nous nous re-concentrons continuellement sur de nouvelles observations en dehors de la routine. Notre attitude doit être d'abord de chercher à trouver des problèmes, et non de vérifier l'absence de problème, sinon nous allons tester de manière superficielle et nous leurer sur la vraie nature du produit.
 
 > Indeed, any advertiser, late-night TV pitchman, or stage magician can show you that something appears to work. Our job as testers is not to obey the ad, swallow the pitch, or believe the trick. Our job is to figure out what the ad leaves out, where the product doesn’t meet the claims, or how the magician might be fooling us. Although routine output checking is part of our work, we continually re-focus on non-routine, novel observations. Our attitude must be one of seeking to find trouble, not verifying the absence of trouble—otherwise we will test in shallow ways and blind ourselves to the true nature of the product.
 
-
-
 > Evaluating quality is a task that requires skillful, complex, non-algorithmic investigation and judgment. That task can be supported and accelerated by tools, but it cannot be performed by the tools themselves.
+
+Evaluer la qualité est une tâche qui requière de l'investigation et du discernemetn de manière habile, complexe et non-algorithmique. Cette tâche peut être soutenue et accélérée par des outils, mais elle ne peut pas être effectuée par les outils eux-mêmes. 
 
 > ## Checking is important.
 
