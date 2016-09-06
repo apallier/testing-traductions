@@ -32,25 +32,36 @@ Décomposons un peu plus le Test. Que faisons nous de spécifique lorsque nous t
 - we record and report the testing work that has been done.
 - we manage the testing work, which includes understanding the current status of testing, analyzing product risk, scoping and assigning testing tasks.
 
-Toutes ces activités peuvent être soutenues avec des outils.
+On peut s'aider d'outils pour réaliser ces activités.
 
 > All of these activities can be helped with tools.
 
 [4] Voir http://www.satisfice.com/blog/archives/856
+
 [5] "...ce que ces quelques degrés sont, je ne les ai pas encore vérifié expérimentalement; mais il est une notion, qui si elle est pleinement suivie comme est devrait l'être, pourra fortement aider les astronomes à réduire tous les mouvements célestes à une certaine règle, laquelle je doute qu'elle ne soit jamais vraie sans cela..." Robert Hooke, 1674, An Attempt to Prove the Motion of the Earth by Observations, (http://bit.ly/1MDwhBI)
 
 > [4] See http://www.satisfice.com/blog/archives/856
 > [5] “…what these several degrees are I have not yet experimentally verified; but it is a notion, which if fully prosecuted as it ought to be, will mightily assist the astronomer to reduce all the Celestial motions to a certain rule, which I doubt will never be done true without it…” Robert Hooke, 1674, An Attempt to Prove the Motion of the Earth by Observations, (http://bit.ly/1MDwhBI)
 
----------------------
+## Distinguer la Vérification du Test
 
 > ## Distinguish between checking and testing.
 
+Nous pensons qu'il est nécessaire une distinction entre la Vérification et le Test. La Vérification est le processus qui consiste à faire des évaluations en appliquant des règles de décision algoritmiques aux observations spécifiques d'un produit. Ceci est différent du reste du Test d'une manière cruciale: cela peut être complètement automatisé. La Vérification est l'endroit approprié pour parler "d'automatisation".
+
 > We find it necessary to distinguish between checking and testing. Checking is the process of making evaluations by applying algorithmic decision rules to specific observations of a product. This is different from the rest of testing in one vital way: it can be completely automated. Checking is an appropriate place to use that word “automation.”
+
+En Test, nous concevons et réalisons des expériences qui nous aident à augmenter notre compréhension du status du produit. Cette compréhension est une interpretation, une estimation. Mais ce n'est pas un fait. Les faits simples sont discutablement "vérifiables", mais la qualité n'est jamais un fait simple. La Qualité est une hypothèse de travail. Lorsqu'on utilise un logiciel et qu'on échoue à trouver un problème spécifique, il n'est pas prouvé ou démontré que "ça marche". Tout ce que l'on sait c'est que l'on n'a pas encore reconnu d'erreur. Tout ce qu'on a démontré est que le produit peut marcher. Le produit pourrait échouer d'une manière subtile qu'on n'a pas ou que l'on ne pouvait pas encore détecter. Peut-être que ça marche bien maintenant, mais ça ne marchera pas dans 10 minutes de ça. Donc est-ce que ça marche réellement, vraiment et de façon fiable ? Aucune vérification des résultats ne peut vous le dire. Aucun ensemble de vérification ne peut vous le dire.
 
 > In testing, we design and perform experiments that help us develop our understanding of the status of the product. This understanding is an interpretation; an assessment. But it is not a fact. Simple facts are arguably “verifiable,” but quality is never a simple fact. Quality is a working hypothesis. When you exercise software and fail to spot a specific problem, you have not proven or demonstrated that “it works.” All you know is that you haven’t yet recognized a failure. All you have demonstrated is that the product can work. The product may have failed in a subtle way you did not or cannot yet detect., Maybe it works fine now, but won’t work ten minutes from now. So does it really, truly, deeply work? No output check can tell you that. No collection of output checks can tell you that.
 
+------------------------
+
+En fait, aucun annonceur, présentateur TV de fin de soirée ou magicien peut vous montrer que quelque chose semble marcher. Notre travail en tant que testeur n'est pas d'obéir à l'annonce, d'avaler le spitch ou de croire au tour. Notre travail consiste à comprendre ce que l'annonce oublie de dire, à quel endroit le produit ne répond pas aux attentes, ou comment le magicien pourrait nous tromper. Bien que la vérification routinière des résultats fasse partie de notre travail, nous nous re-concentrons continuellement sur de nouvelles observations en dehors de la routine. Notre attitude doit être d'abord de chercher à trouver des problèmes, et non de vérifier l'absence de problème, sinon nous allons tester de manière superficielle et nous leurer sur la vraie nature du produit.
+
 > Indeed, any advertiser, late-night TV pitchman, or stage magician can show you that something appears to work. Our job as testers is not to obey the ad, swallow the pitch, or believe the trick. Our job is to figure out what the ad leaves out, where the product doesn’t meet the claims, or how the magician might be fooling us. Although routine output checking is part of our work, we continually re-focus on non-routine, novel observations. Our attitude must be one of seeking to find trouble, not verifying the absence of trouble—otherwise we will test in shallow ways and blind ourselves to the true nature of the product.
+
+
 
 > Evaluating quality is a task that requires skillful, complex, non-algorithmic investigation and judgment. That task can be supported and accelerated by tools, but it cannot be performed by the tools themselves.
 
