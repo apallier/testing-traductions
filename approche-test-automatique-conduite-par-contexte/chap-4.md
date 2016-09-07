@@ -63,10 +63,18 @@ En fait, aucun annonceur, présentateur TV de fin de soirée ou magicien peuvent
 
 Evaluer la qualité est une tâche qui requière de l'investigation et du discernemetn de manière habile, complexe et non-algorithmique. Cette tâche peut être soutenue et accélérée par des outils, mais elle ne peut pas être effectuée par les outils eux-mêmes. 
 
+## La Vérification est importante
+
 > ## Checking is important.
+
+Une bonne vérification fait parti du test. La vérification n'est pas la même chose que le test de la même manière que mordre n'est pas la même chose que manger, les roues ne sont pas la même chose que les voitures et que la vérification orthographique n'est pas la même chose que l'édition. Une bonne vérification est toujours un produit et un composant des processus de conception, d'implémentation et d'interprétation de ces contrôles qui sont des activités humaines et qui constitue le test. Le test donne à la vérification sa valeur et son sens. Cependant, la vérification maintient le test.
 
 > Good checking is a subset of testing. Checking is not the same as testing in the way that biting is not the same as eating; tires are not the same as cars; and spell checking is not the same as editing. Good checking is always a product of— and embedded in— the processes of designing, implementing, and interpreting those checks, which are human activities; which constitute testing. Testing gives checking its value and meaning. Whereas, checking keeps testing grounded.
 
+La vérification automatique est une tactique de test, et peut apporter une valeur considérable. Les programmeurs qui adoptent la vérification dans leur pratique de codage peuvent fournir un retour rapide et peu coûteux. Faire des vérification au travers d'une API siuée juste en dessous d'une interface graphique peut être particulièrement utile. En concevant de telles vérifications de bas niveau, les programmeurs et testeurs peuvent travailler ensemble à profit.
+
 > Automated checking is a tactic of testing, and can have considerable value. Programmers who adopt automated checks into their coding practices can provide themselves with fast, inexpensive feedback. Checking through an API beneath the GUI level can be particularly useful. In designing such low-level checks, programmers and testers can profitably work together.
+
+Nous trouvons plus douteux l'automatisation au niveau de l'interface graphique (IHM). Les IHM sont notoirement difficiles car des personne non-technique peuvent les voir et les contester. Les IHM peuvent donc être modifié de manière plus capricieuse que les interfaces sous jacentes qui elles ne sont vues que par des programmeurs. Cela peut conduire à un large et couteux effort de maintenance juste pour garder une simple vérification qui marche. en plus, les IHM sont conçues pour être naturel et utilisable par des humains et non pour d'autres logiciels. On peut avoir besoin d'un programmeur compétent à temps-plein pour maintenir tout le code nécessaire pour tenter de simuler un testeur humain rapide mais incompétent. Ce n'est surement pas un moyen de faire des économies.
 
 > We are more doubtful of automated checking at the GUI level. GUIs are notoriously fussy. Because non-technical people can see them and discuss them, GUIs may change much more capriciously than the underlying interfaces that only programmers see. This can lead to a large, expensive maintenance effort just to keep the simple checks running. Moreover, GUIs are designed to feel natural and comfortable for people, not for other software. You may need a skilled full-time programmer to maintain all the code necessary to attempt to simulate a speedy but unskilled human tester. That is probably not a money-saving proposition.
