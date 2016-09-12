@@ -8,12 +8,13 @@ Les compétences et l'état d'esprit d'un testeur sont centrales dans l'utilisat
 
 Etablissons le catalogue des différentes manières dont les outils peuvent nous aider dans le test :
 
-* En conception, on utilise des outils pour nous aider à:
+* En conception, on utilise des outils pour nous aider à :
    
     * produire des données de test (outils comme les tableurs, générateurs d'états par modèle, simulations de "Monte Carlo", générateurs de nombres aléatoires)
     * obfusquer ou nettoyer les données de production pour des raisons de confidentialité (brouilleurs de données, remplacements de nom)
     * générer des combinaisons intéressantes de paramètres (générateurs de données combinatoires ou "all-pairs")
     * générer des flux à travers le produit qui couvrent des conditions spécifiques (générateurs de chemins  par modèle d'état ou par modèle de flux)
+
 > 
 > Let’s catalog some of the many ways tools help us in testing:
 > 
@@ -23,7 +24,13 @@ Etablissons le catalogue des différentes manières dont les outils peuvent nous
 >     – generate interesting combinations of parameters (all-pairs or combinatorial data generators)
 >     – generate flows through the product that cover specific conditions (state-model or flow-model path generators)
 > 
---------------------
+
+* Dans l'interaction avec le produit, on utilise des outils pour nous aider à :
+    - initialiser et configurer le produit ou les environnements de test (comme les outils de "Déploiement Continu", de virtualisation ou les outils de réplication de système)
+    - soumettre et chronométrer des transactions, peut-être pendant un temps long, avec des gros volumes et sous condition de stress (outils de profilage et de benchmarking)
+    - coder des procédures qui manipulent le produit et comparent les sorites à des résultats calculés (c'est la vérificaiton "automatique)
+    - simuler des logiciles ou du matériel qui n'a pas été encore développé, ou qui n'est pas immédiatement disponible (outil de bouchonnage ou de simulation)
+    - mesurer l'état interne du système et analyser le traffic de l'intérieur pendant que l'on réalise le test (instrumentation, ananlyse de journal, moniteurs de fichiers ou de processus, outils de débogage)
 
 > * In product interaction, we use tools to help us
 >     – set up and configure the product or test environments (like continuous deployment tools; virtualization tools; or system cloning tools)
@@ -31,12 +38,21 @@ Etablissons le catalogue des différentes manières dont les outils peuvent nous
 >     – encode procedures like operating the product and comparing its outputs to calculated results (this is automated checking).
 >     – simulate software or hardware that has not been developed yet; or that we do not have immediately available to us (mocking or stubbing tools)
 >     – probe the internal state of the system and analyze traffic within it as testing is being performed (instrumentation; log analysis; file or process monitors; debugging tools)
+
+* En évaluation, on utilise des outils pour nous aider à :
+    - trier, filtrer et rechercher des informations dans les journaux (éditeurs de texte, tableurs, expressions régulières)
+    - visualiser les sorties pour faire des analyses comparatives (outils de comparaison, de cartographie et de générations de graphiques, formattage conditionnelle des résultats)
+    - développer, adapter et appliquer des oracles qui nous aident à reconnaitre des problèmes potentiels (outil de comparaison de fichiers source ou de résultats, algorithmes parallèle ou de comparaison, contrôles de cohérence interne au sein de l'application, outils d'analyse statistique)
+
 > 
 > * In evaluation, we use tools to help us
 >     – sort, filter, and parse output logs (text editors; spreadsheets; regular expressions)
 >     – visualize output for comparative analysis (diffing, charting and graphing tools, conditional output formatting)
 >     – develop, adapt and apply oracles that help us recognize potential problems (source file or output comparison tools; parallel or comparable algorithms; internal consistency checks within the application; statistical analysis tools)
 > 
+
+------------------------
+
 > * In recording and reporting, we use tools to help us
 >     – record our activities and document our procedures (note-taking tools; video-recording tools; built-in logging; word processing tools; user interaction recording tools)
 >     – prepare reports for our clients (mind maps; word processors; spreadsheets; presentation software)
