@@ -51,19 +51,30 @@ Etablissons le catalogue des différentes manières dont les outils peuvent nous
 >     – develop, adapt and apply oracles that help us recognize potential problems (source file or output comparison tools; parallel or comparable algorithms; internal consistency checks within the application; statistical analysis tools)
 > 
 
-------------------------
+* En enregistrement et génération de rapports, on utilise des outils pour nous aider à :
+    - enregistrer nos activités et domenter nos procedures (outils de prise de notes, outils d'enregistrement de vidéo, journalisation intégrée, outil d'analyse lexicale, outils d'enregistrement d'actions des utilisateurs)
+    - préparer des rapports pour nos clients (mind-mapping, éditeurs de texte, tableur, logiciel de présentation)
 
 > * In recording and reporting, we use tools to help us
 >     – record our activities and document our procedures (note-taking tools; video-recording tools; built-in logging; word processing tools; user interaction recording tools)
 >     – prepare reports for our clients (mind maps; word processors; spreadsheets; presentation software)
-> 
+
+* En gestion du travail de test, on utilise des outils pour nous aider à :
+    - cartographier notre stratégie (mind maps, processeurs d'idées, éditeurs de texte)
+    - identifier ce qui a et n'a pas été testé (outils de calcul de couverture, profileurs, analyse des journaux)
+    - préserver des informations sur nos produits, et aider d'autres personnes dans les maintenance et développement futurs (wikis, bases de connaissance, serveurs de fichier)
+ 
 > * In managing the testing work, we use tools to help us
 >     – map out our strategies (mind maps, outline processors, word processors)
 >     – identify what has and has not been covered by testing (coverage tools; profilers; log file analysis)
 >     – preserve information about our products, and to aid other people in future support and development (wikis; knowledge bases; file servers)
-> 
+
+Et ceci est une liste incomplète de la façon dont nous utilisons des outils pour nous aider. Par dessus cela, nous utisons des outils pour nous aider à produire les outils que nous utilisons.
+
 > And this is an incomplete list of the ways in which we use tools to help us. Moreover, we use tools to help us produce the tools that we use.
-> 
+
+Vous avez probablement remarqué comment nous avons dit de façon répétée "Nous utilisons des outils pour nous aider à". Nous avons choisi ces mots délibérement pour souligner une nouvelle fois que les outils ne font pas le travail de test. Les outils aident les testeurs à faire le travail de test. Dans le cadre du test, les outils peuvent être importants mais l'aspect central du test doit être le jeu de compétences et l'état d'esprit de chaque testeur.
+ 
 > You have probably noticed how we repeatedly said “We use tools to help us...” We have chosen these words deliberately to emphasize once again that tools don’t do testing work; tools help testers to do testing work. In conversation about testing, tools may be important, but the center of testing must be the skill set and the mindset of the individual tester.
 > 
 > ## Let your context drive your tooling.
