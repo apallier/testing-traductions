@@ -73,7 +73,7 @@ Et ceci est une liste incomplète de la façon dont nous utilisons des outils po
 
 > And this is an incomplete list of the ways in which we use tools to help us. Moreover, we use tools to help us produce the tools that we use.
 
-Vous avez probablement remarqué comment nous avons dit de façon répétée "Nous utilisons des outils pour nous aider à". Nous avons choisi ces mots délibérement pour souligner une nouvelle fois que les outils ne font pas le travail de test. Les outils aident les testeurs à faire le travail de test. Dans le cadre du test, les outils peuvent être importants mais l'aspect central du test doit être le jeu de compétences et l'état d'esprit de chaque testeur.
+Vous avez probablement remarqué comment nous avons dit de façon répétée "Nous utilisons des outils pour nous aider à". Nous avons choisi ces mots délibérement pour souligner une nouvelle fois que les outils ne font pas le travail de test. Les outils aident les testeurs à faire le travail de test. Dans le cadre du test, les outils peuvent être importants mais l'aspect central du test doit être le jeu de compétences et l'état d'esprit du testeur.
  
 > You have probably noticed how we repeatedly said “We use tools to help us...” We have chosen these words deliberately to emphasize once again that tools don’t do testing work; tools help testers to do testing work. In conversation about testing, tools may be important, but the center of testing must be the skill set and the mindset of the individual tester.
 > 
