@@ -77,8 +77,21 @@ Vous avez probablement remarqué comment nous avons dit de façon répétée "No
  
 > You have probably noticed how we repeatedly said “We use tools to help us...” We have chosen these words deliberately to emphasize once again that tools don’t do testing work; tools help testers to do testing work. In conversation about testing, tools may be important, but the center of testing must be the skill set and the mindset of the individual tester.
 > 
+
+## Laisse votre contexte conduire votre outillage
+
 > ## Let your context drive your tooling.
-> 
+
+Par "contexte", nous entendons l'ensemble des facteurs qui peuvent affecter les décisions d'un testeur responsable. D'une manière général, un artisan qui a à la fois les compétences et l'intentention de choisir et d'appliquer les outils et les méthodes appropriés dans un contexte donné, peut être appelé "conduit par le contexte". Plus spécifiquemeent, l'école du test logcieil dite "conduit par le contexte" est un paradigme du test basé sur les principes suivants :
+
+1. La valeur de toute pratique dépend de son contexte.
+2. Il y a des bonnes pratiques dans un contexte donné mais il n'y a pas de meilleures pratiques.
+3. Les personnes, travaillant ensemble, sont la plus importante partie de tout le contexte d'un projet.
+4. Les projets se déroulent dans le temps de manière souvent non prévisible.
+5. Le produit est une solution. Si le problème n'est pas résolu, le produit ne marche pas.
+6. Faire du bon test logiciel est un défi intellectuel.
+7. C'est seulement grâce au discernement et aux compétences, exercés de manière coopérative tout au long de l'ensemble du projet, que nous sommes capable de faire les bonnes choses au bon moment pour tester efficacement nos produits.
+
 > By “context”, we mean the set of factors that should affect the decisions of a responsible tester. Generally speaking, a craftsman who has both the skills and intent to select and apply the appropriate tools and methods for any given context can be called context-driven. More specifically the Context-Driven school of software testing is a paradigm of testing based on the following principles:
 > 
 > 1. The value of any practice depends on its context.
