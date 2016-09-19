@@ -101,7 +101,10 @@ Par "contexte", nous entendons l'ensemble des facteurs qui peuvent affecter les 
 > 5. The product is a solution. If the problem isn’t solved, the product doesn’t work.
 > 6. Good software testing is a challenging intellectual process.
 > 7. Only through judgment and skill, exercised cooperatively throughout the entire project, are we able to do the right things at the right times to effectively test our products.
->     
+>
+
+Ces principes ont été écrits par Cem Kaner, James Bach, et Bret Pettichord, et publié pour la première fois dans leur livre "Leçons apprises en Test logiciel: une approche "conduite par le contexte", qui est le livre à l'origine du courant "Conduit par le contexte".
+
 > These principles were written by Cem Kaner, James Bach, and Bret Pettichord, and first published in their book Lessons Learned in Software Testing: A Context-Driven Approach, which is the seminal book on Context-Driven thinking.
 > 
 > Note that if you are working in a way that solves the problems that exist in your environment, you may be doing context-specific work without necessarily being context-driven. To be context-driven you must be ready and able to change the way you work if and when the context changes. That’s why the Context-Driven community focuses on developing skills and sharing experiences across many kinds of projects and technologies. This is why we foster peer conferences dedicated to conversation and debate, rather than to flashy exhibitions.
