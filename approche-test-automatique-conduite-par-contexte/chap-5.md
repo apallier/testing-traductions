@@ -29,7 +29,7 @@ Etablissons le catalogue des différentes manières dont les outils peuvent nous
     - initialiser et configurer le produit ou les environnements de test (comme les outils de "Déploiement Continu", de virtualisation ou les outils de réplication de système)
     - soumettre et chronométrer des transactions, peut-être pendant un temps long, avec des gros volumes et sous condition de stress (outils de profilage et de benchmarking)
     - coder des procédures qui manipulent le produit et comparent les sorites à des résultats calculés (c'est la vérificaiton "automatique)
-    - simuler des logiciles ou du matériel qui n'a pas été encore développé, ou qui n'est pas immédiatement disponible (outil de bouchonnage ou de simulation)
+    - simuler des logiciels ou du matériel qui n'a pas été encore développé, ou qui n'est pas immédiatement disponible (outil de bouchonnage ou de simulation)
     - mesurer l'état interne du système et analyser le traffic de l'intérieur pendant que l'on réalise le test (instrumentation, ananlyse de journal, moniteurs de fichiers ou de processus, outils de débogage)
 
 > * In product interaction, we use tools to help us
@@ -103,14 +103,32 @@ Par "contexte", nous entendons l'ensemble des facteurs qui peuvent affecter les 
 > 7. Only through judgment and skill, exercised cooperatively throughout the entire project, are we able to do the right things at the right times to effectively test our products.
 >
 
-Ces principes ont été écrits par Cem Kaner, James Bach, et Bret Pettichord, et publié pour la première fois dans leur livre "Leçons apprises en Test logiciel: une approche "conduite par le contexte", qui est le livre à l'origine du courant "Conduit par le contexte".
+Ces principes ont été écrits par Cem Kaner, James Bach, et Bret Pettichord, et publié pour la première fois dans leur livre "Leçons apprises en Test logiciel : une approche "conduite par le contexte"", qui est le livre à l'origine du courant "Conduit par le contexte".
 
 > These principles were written by Cem Kaner, James Bach, and Bret Pettichord, and first published in their book Lessons Learned in Software Testing: A Context-Driven Approach, which is the seminal book on Context-Driven thinking.
 > 
+
+Noter que si vous travaillez d'une manière à résoudre les problèmes qui existent dans votre environnement, vous faites peut-être un travail contextuel sans pour autant être "conduit par le contexte". Pour être "contuit par le contexte", vous devez être prêt et capable de changer la manière dont vous travaillez si et au mooment où le contexte change. C'est pourquoi la communaité "conduite par le contexte" se focalise sur le développement des compétences et le partage des expériences au travers toutes sortes de projets ou de technologies. C'est pourquoi nous encourageons les conférences entre pairs consacrées aux conversations et aux débats plutôt qu'aux expositions "tape-à-l'oeil".
+
 > Note that if you are working in a way that solves the problems that exist in your environment, you may be doing context-specific work without necessarily being context-driven. To be context-driven you must be ready and able to change the way you work if and when the context changes. That’s why the Context-Driven community focuses on developing skills and sharing experiences across many kinds of projects and technologies. This is why we foster peer conferences dedicated to conversation and debate, rather than to flashy exhibitions.
 > 
+
+## Comment le contexte conduit spécifiquement l'outillage ?
+
 > ## How specifically does context drive tooling?
 > 
+
+Le contexte conduit l'outillage au travers de l'activité courante de résolution de problème. Nous le faisons en développant dans notre pensée, différentes compréhensions de:
+
+* ce qui nous entoure et notre place dans le monde
+* nos clients et notre mission
+* des autres personnes impliquées et de ce qu'ils essaient de faire
+* des outils et techniques disponibles
+* des actions que nous pouvons prendre et de leurs effets
+* des coûts immédiats (et du temps pris) de ces actions
+* des coûts à long terme de ces actions
+* la valeur de la connaissance acquise en essayant de nouvelles choses
+
 > Context drives tooling through the activity of ongoing problem-solving. We do that by developing in our minds various understandings, including:
 > 
 > * what surrounds us and our place in that world
@@ -122,8 +140,14 @@ Ces principes ont été écrits par Cem Kaner, James Bach, et Bret Pettichord, e
 > * the long term costs of those actions
 > * the value of learning from trying new things
 > 
+
+Ces compréhensions peuvent être pensées comme des espaces que nous explorons tout au long de nos projets et de nos carrières. Comme nous apprenons et grandissons, tout au long de nos projets et nos carrières, nous devenons meilleurs en pilotage à l'intérieur de ces espaces.
+
 > These understandings may be thought of as spaces that we explore throughout our projects and careers. As we learn and grow, during the course of our projects and careers, we get better at navigating them.
 > 
+
+-----------------------------------------
+
 > What we do with those understandings ultimately results in mental calculations and decisions along the lines of Figure 3. In context-driven work, our choices are guided not according to a fixed script of “best practices” but rather by dynamically evaluating context and selecting, designing, or adjusting our actions to solve the problems that we encounter. We don’t simply look at whether a particular strategy is worth doing in and of itself, such as strategy B in the diagram, where you can see that its value outweighs the risks and the costs. We also compare that to other strategies that might be even better, such as strategy A. Yes, these decisions may be biased, as in Figure 4, perhaps because we unconsciously veer toward things we know and away from potentially wonderful new ideas that we aren’t yet comfortable with. But still, we strive to make decisions based on merits rather than following the dictates of fashion or arguments from authority. In context-driven testing, we don’t idolize “best practices.”
 > 
 > The answer to the question of how context drives tooling is: we read the situation around us; we discover the factors that matter; we generate options; we weigh our options, and we build a defensible case for choosing a particular option over all others. Then we put that option into practice and take responsibility for what happens next. All along we are learning and getting better at this.
