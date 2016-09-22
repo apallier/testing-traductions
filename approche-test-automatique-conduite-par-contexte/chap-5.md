@@ -178,15 +178,24 @@ Ces compréhensions peuvent être pensées comme des espaces que nous explorons 
 >     
 > 8. Tools that are widely (or easily) deployed are preferable to tools that aren’t. A primary problem of tool use is getting the tool in the first place. Some tools require complicated installation and configuration. Some tools may require special permission or expenditure. This can require negotiating with the IT department, managers, or co-workers. Exception: Some tools may be worth this trouble.
 >     
-> 
-> ## Invest in testability7.
-> 
+
+## Investir dans la testabilité
+
+> ## Invest in testability<sup>7</sup>.
+
+Le succès de toute stratégie d'outillage dépend pour une grande partie de comment votre technologie prend en compte les intéractions avec les outils. C'est pourquoi, il est payant d'implémenter de la testabilité à l'intérieur de vos produits. Du point de vue de l'outil, cela signifie deux grandes choses : que votre produit est controlable par des outils via des interfaces facilement scriptables, et que ses états et ses sorties sont observables par ces mêmes outils. Pour cette raison, les produits basés sur un navigateur tendent à être plus testables tandis que les appareils mobiles sont moins testables. Les produits respectants des contrôles standardisés sont plus testables que les produits avec des contrôles spécifiques.
+
 > The success of any tooling strategy depends in large part on how well your technology affords interactions with tools. This is why it pays to build testability into your products. From a tool perspective this means two big things: that your product is controllable by tools via easily scripted interfaces, and that its states and outputs are observable by those tools. For this reason, browser based products tend to be more testable while apps on mobile devices are less testable. Products with standard controls are more testable than products with custom controls.
-> 
+
+Considérez faire de la revue de testabilité une part de chaque itération, ou sinon instillez cette manière de penser au début de vos projets. toute tentative sérieuse de faire fonctionner de l'outillage doit s'accompagner forcément d'une ingénierie testable.
+
 > Consider making testability review a part of each iteration, and otherwise instill this thought process early in your projects. Any serious attempt to make tooling work must go hand-in-hand with testable engineering.
-> 
-> 
+
 > 
 > [6] See Nicholas Carr, The Glass Cage, and Lisanne Bainbridge, "Ironies of Automation", Automatica, Vol. 19, No. 6. pp. 775 779, 1983.
 > 
 > [7] See http://www.satisfice.com/tools/testability.pdf
+
+[6] Voir Nicholas Carr, The Glass Cage, and Lisanne Bainbridge, "Ironies of Automation", Automatica, Vol. 19, No. 6. pp. 775 779, 1983.
+ 
+[7] Voir http://www.satisfice.com/tools/testability.pdf
