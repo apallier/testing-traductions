@@ -2,7 +2,7 @@
 
 > # Third: Explore the many ways to use tools!
 
-Les compétences et l'état d'esprit d'un testeur sont centrales dans l'utilisation responsable d'outils. Cependant, lorsque nous disons ça, certaines personnes semblent penser que nous disons que les outils ne sont pas importants, ou que les testeurs "conduits par le contexte" haïssent les outils. Rien ne peut être plus éloigné de la vérité.
+Les compétences et l'état d'esprit d'un testeur sont centrales dans l'utilisation responsable d'outils. Cependant, lorsque nous disons ça, certaines personnes semblent penser que nous disons que les outils ne sont pas importants, ou que les testeurs "conduits par le contexte" détestent les outils. Rien ne peut être plus éloigné de la vérité.
 > 
 > The skill set and the mindset of the individual tester are central to the responsible use of tools. When we say this, however, some people seem to hear us saying that tools are not important, or that context-driven testers hate tools. Nothing could be farther from the truth.
 
@@ -141,15 +141,17 @@ Le contexte conduit l'outillage au travers de l'activité courante de résolutio
 > * the value of learning from trying new things
 > 
 
-Ces compréhensions peuvent être pensées comme des espaces que nous explorons tout au long de nos projets et de nos carrières. Comme nous apprenons et grandissons, tout au long de nos projets et nos carrières, nous devenons meilleurs en pilotage à l'intérieur de ces espaces.
+Ces compréhensions peuvent être pensées comme des espaces que nous explorons tout au long de nos projets et de nos carrières. Comme nous apprenons et grandissons, tout au long de nos projets et nos carrières, nous devenons meilleurs dans la navigation à l'intérieur de ceux-ci.
 
 > These understandings may be thought of as spaces that we explore throughout our projects and careers. As we learn and grow, during the course of our projects and careers, we get better at navigating them.
 > 
 
------------------------------------------
+Ce que nous faisons avec ces compréhensions aboutit finalement à des calculs mentaux et des décisions comme le montre les lignes de la [figure 3](images/figure3.png).  Dans un travail "conduit par le contexte", nos choix sont guidés non selon un programme fixe des "meilleures pratiques" mais plutôt par évaluation dynamique du contexte et en choisissant, concevant et ajustant nos actions pour résoudre les problèmes que nous rencontrons. Nous ne regardons pas simplement si une stratégie particulière en vaut la peine en soi, comme la startégie B dans le diagrame sur lequel vous pouvez voir que la valeur l'emporte sur les risques et les coûts.Nous comparons également avec les autres stratégies qui pourraient être encore mieux, comme la stratégie A. Oui ces décisions peuvent être biaisées comme sur la [figure 4](images/figure4.png) peut-être parce que nous virons inconsciemment vers les choses que nous connaissons et nous nous éloignons des potentiellement merveilleuses nouvelles idées avec lesquelles nous ne sommes pas encore à l'aise. Mais nous nous efforçons encore de prendre des décisions fondées sur les mérites plutôt que de suivre les diktats de la mode ou les arguments d'autorité. Dans le test "conduit par le contexte", nous n'idolâtrons par les "meilleures pratiques".
 
 > What we do with those understandings ultimately results in mental calculations and decisions along the lines of Figure 3. In context-driven work, our choices are guided not according to a fixed script of “best practices” but rather by dynamically evaluating context and selecting, designing, or adjusting our actions to solve the problems that we encounter. We don’t simply look at whether a particular strategy is worth doing in and of itself, such as strategy B in the diagram, where you can see that its value outweighs the risks and the costs. We also compare that to other strategies that might be even better, such as strategy A. Yes, these decisions may be biased, as in Figure 4, perhaps because we unconsciously veer toward things we know and away from potentially wonderful new ideas that we aren’t yet comfortable with. But still, we strive to make decisions based on merits rather than following the dictates of fashion or arguments from authority. In context-driven testing, we don’t idolize “best practices.”
-> 
+
+--------------------------
+
 > The answer to the question of how context drives tooling is: we read the situation around us; we discover the factors that matter; we generate options; we weigh our options, and we build a defensible case for choosing a particular option over all others. Then we put that option into practice and take responsibility for what happens next. All along we are learning and getting better at this.
 > 
 > Building a test strategy and determining how to use tools to fulfill that strategy is an evolutionary process. No one who says “do it right the first time” has ever really done anything difficult right the first time. We become able to do things well partly via the experience of doing them badly. We often learn how to develop powerful, polished tools by developing cheap, disposable tools—and then throwing them away and applying what we’ve learned. Developing software also means developing our approaches to testing it.
