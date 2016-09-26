@@ -150,10 +150,12 @@ Ce que nous faisons avec ces compréhensions aboutit finalement à des calculs m
 
 > What we do with those understandings ultimately results in mental calculations and decisions along the lines of Figure 3. In context-driven work, our choices are guided not according to a fixed script of “best practices” but rather by dynamically evaluating context and selecting, designing, or adjusting our actions to solve the problems that we encounter. We don’t simply look at whether a particular strategy is worth doing in and of itself, such as strategy B in the diagram, where you can see that its value outweighs the risks and the costs. We also compare that to other strategies that might be even better, such as strategy A. Yes, these decisions may be biased, as in Figure 4, perhaps because we unconsciously veer toward things we know and away from potentially wonderful new ideas that we aren’t yet comfortable with. But still, we strive to make decisions based on merits rather than following the dictates of fashion or arguments from authority. In context-driven testing, we don’t idolize “best practices.”
 
---------------------------
+La réponse à la question de "comment le contexte conduit votre outillage" est la suivante: nous regardons la situation autour de nous, nous découvrons les facteurs qui comptent, nous générons les solutions possibles, nous soupesons nos solutions et nous construisons un cas défendable sur le choix d'une solution en particulier au dépend de toutes les autres. Puis, nous mettons en oeuvre cette solution et nous preoons la responsabilité sur ce qui va arriver après. Pendant tout ce temps, nous apprenons et nous devenons meilleur à le faire.
 
 > The answer to the question of how context drives tooling is: we read the situation around us; we discover the factors that matter; we generate options; we weigh our options, and we build a defensible case for choosing a particular option over all others. Then we put that option into practice and take responsibility for what happens next. All along we are learning and getting better at this.
-> 
+
+--------------------------
+
 > Building a test strategy and determining how to use tools to fulfill that strategy is an evolutionary process. No one who says “do it right the first time” has ever really done anything difficult right the first time. We become able to do things well partly via the experience of doing them badly. We often learn how to develop powerful, polished tools by developing cheap, disposable tools—and then throwing them away and applying what we’ve learned. Developing software also means developing our approaches to testing it.
 > 
 > Context-driven behavior tends to be highly exploratory because the practitioner is responsible, at every turn, for the quality of the work—and not just the immediate work, but also the overall strategy. If you are not just following instructions handed down from a boss or bureaucrat, then you have to evaluate the situation and frequently adjust your practices to get the best result you can. This also means that Context-Driven practitioners think not only about efficiencies, but about contingencies as well.
@@ -181,7 +183,7 @@ Ce que nous faisons avec ces compréhensions aboutit finalement à des calculs m
 > 8. Tools that are widely (or easily) deployed are preferable to tools that aren’t. A primary problem of tool use is getting the tool in the first place. Some tools require complicated installation and configuration. Some tools may require special permission or expenditure. This can require negotiating with the IT department, managers, or co-workers. Exception: Some tools may be worth this trouble.
 >     
 
-## Investir dans la testabilité
+## Investir dans la testabilité<sup>7</sup>
 
 > ## Invest in testability<sup>7</sup>.
 
