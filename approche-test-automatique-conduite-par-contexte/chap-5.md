@@ -154,10 +154,12 @@ La réponse à la question de "comment le contexte conduit votre outillage" est 
 
 > The answer to the question of how context drives tooling is: we read the situation around us; we discover the factors that matter; we generate options; we weigh our options, and we build a defensible case for choosing a particular option over all others. Then we put that option into practice and take responsibility for what happens next. All along we are learning and getting better at this.
 
---------------------------
+Construire une stratégie de test et déterminer comme utiliser des outils afin de réaliser cette strategy est un procédé évolutif. La personne qui dit "Fait le bien dès la premier fois" n'a jamais vraiment fait de choses difficiles bien dès la première fois. Nous devenons capable de faire les choses bien en partie grâce à l'expérience de les avoir mal faites. Nous apprenons souvent comment développer des outils puissants et perfectionnés en développant des outils bon marché et disponibles que nous jetterons ensuite pour appliquer ce que nous en avons appris. Développer du logiciel signifie aussi développer nos approches pour le tester.
 
 > Building a test strategy and determining how to use tools to fulfill that strategy is an evolutionary process. No one who says “do it right the first time” has ever really done anything difficult right the first time. We become able to do things well partly via the experience of doing them badly. We often learn how to develop powerful, polished tools by developing cheap, disposable tools—and then throwing them away and applying what we’ve learned. Developing software also means developing our approaches to testing it.
-> 
+
+------------------------
+
 > Context-driven behavior tends to be highly exploratory because the practitioner is responsible, at every turn, for the quality of the work—and not just the immediate work, but also the overall strategy. If you are not just following instructions handed down from a boss or bureaucrat, then you have to evaluate the situation and frequently adjust your practices to get the best result you can. This also means that Context-Driven practitioners think not only about efficiencies, but about contingencies as well.
 > 
 > Approaching test tooling in a context-driven way means we don’t play down the problems that tools have. We try to face them forthrightly. This can make us look rather pessimistic about certain ways of using tools, though, so it is a special challenge to remind ourselves of the benefits of tooling and to move toward the kind of tools that provide more of those benefits.
