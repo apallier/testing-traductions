@@ -158,10 +158,12 @@ Construire une stratégie de test et déterminer comme utiliser des outils afin 
 
 > Building a test strategy and determining how to use tools to fulfill that strategy is an evolutionary process. No one who says “do it right the first time” has ever really done anything difficult right the first time. We become able to do things well partly via the experience of doing them badly. We often learn how to develop powerful, polished tools by developing cheap, disposable tools—and then throwing them away and applying what we’ve learned. Developing software also means developing our approaches to testing it.
 
-------------------------
+Le comportement "conduit par le contexte" tend à être extrèmement exploratoire car le practitien est responsable, à chaque étape, de la qualité du travail, non seulement du travail immédiat mais aussi de la stratégie globale. Si vous ne suivez pas exactement les instructions décrites par un chef ou un bureaucrate, alors vous avez à évaluer la situation et à ajuster fréquement vos pratiques afin d'obtenir le meilleur résultat que vous pouvez. Cela signifie aussi que les practitiens "conduits par le contexte" pensent non seulement à l'efficacité mais aussi aux éventualités. 
 
 > Context-driven behavior tends to be highly exploratory because the practitioner is responsible, at every turn, for the quality of the work—and not just the immediate work, but also the overall strategy. If you are not just following instructions handed down from a boss or bureaucrat, then you have to evaluate the situation and frequently adjust your practices to get the best result you can. This also means that Context-Driven practitioners think not only about efficiencies, but about contingencies as well.
-> 
+
+Approcher l'outillage des tests d'une manière "conduite par le contexte" signifie que l'on ne doit pas minimiser les problèmes que les outils ont. Nous essyons d'y faire face franchement. Cela peut nous faire paraitre plutôt pessimistes sur la manière d'utiliser certains outils, bien que, ce soit un défi particulier que de se rappeler des bénéfices de l'outillage et d'avancer vers le type d'outils qui fournit le plus grand de ces bénéfices.
+
 > Approaching test tooling in a context-driven way means we don’t play down the problems that tools have. We try to face them forthrightly. This can make us look rather pessimistic about certain ways of using tools, though, so it is a special challenge to remind ourselves of the benefits of tooling and to move toward the kind of tools that provide more of those benefits.
 > 
 > # Invest in tools that give you more freedom in more situations.
