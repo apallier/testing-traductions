@@ -2,7 +2,7 @@
 
 > # Third: Explore the many ways to use tools!
 
-Les compétences et l'état d'esprit d'un testeur sont centrales dans l'utilisation responsable d'outils. Cependant, lorsque nous disons ça, certaines personnes semblent penser que nous disons que les outils ne sont pas importants, ou que les testeurs "conduits par le contexte" détestent les outils. Rien ne peut être plus éloigné de la vérité.
+Les compétences et l'état d'esprit d'un testeur sont centraux une l'utilisation responsable des outils. Cependant, lorsque nous disons ça, certaines personnes semblent penser que nous disons que les outils ne sont pas importants, ou que les testeurs "conduits par le contexte" détestent les outils. Rien ne peut être plus éloigné de la vérité.
 > 
 > The skill set and the mindset of the individual tester are central to the responsible use of tools. When we say this, however, some people seem to hear us saying that tools are not important, or that context-driven testers hate tools. Nothing could be farther from the truth.
 
@@ -183,10 +183,13 @@ Alors quelle doit être l'approche d'un testeur "conduit par le contexte" sur le
 
 > 2. Tools that are inexpensive (or free) are preferable to expensive tools even in many cases where the expensive tools are more powerful. This is partly because of “sunk cost bias.” The more money management pays to acquire a tool, the less acceptable it is to stop using the tool even if the tool is obviously unsuited for the purpose at hand. Furthermore, free tools invite us to experiment with different techniques. Experimenting is absolutely necessary in order to develop the skills and knowledge we need to make informed decisions about our processes. Exceptions: Remember there is more to cost than the purchase price. An apparently inexpensive tool may cost more in the long run if it requires extraordinary maintenance. Also, an expensive tool might be the only tool that has the special capabilities that you seek.
 
-3.
+3.Les outils qui requièrent plus d'engagement et de contôle humains sont préférables à ceux qui en demandent moins. Ceci est dû au syndrôme appelé "Complaisance de l'automatisation", qui est une tendence d'un opérateur humain à perdre ces compétences au fur et à mesure du temps lorsqu'il utilise un outil qui rend la compétence non nécessaire dans des circonstances normales. Dans le but de garder nos esprits, nous les humains avons besoins des les exercer. Les outils doivent être conçus avec ça en tête, ou sinon quand l'outil échouera, l'opérateur ne sera pas prêt à réagir<sup>6</sup>.  
 >     
 > 3. Tools that require more human engagement and control are preferable to those that require less. This is due to a syndrome called “automation complacency,” which is the tendency of human operators to lose their skills over time when using a tool that renders skill unnecessary under normal circumstances. In order to retain our wits, we humans must exercise them. Tools should be designed with that in mind, or else when the tool fails, the human operator will not be prepared to react6. Exception: We may genuinely value the power and convenience that the tool gives us more than we value the skills and awareness that we lose in the process.
->     
+
+4.
+
+>
 > 4. Tools that are supported by a large and active community are preferable to those that are not. The more people who use a tool, the more free support will be available and the more libraries, plug-ins, or other extensions of that tool. This increases the value of the investment in learning that tool, while reducing the learning curve. (The R language is a good example. It’s a powerful and general purpose data analysis tool. Lots of researchers use R, lots of books about it are on Amazon.com, and there are hundreds of libraries that provide special capabilities beyond the defaults capabilities of the tool.) Exception: Just as in the case of expensive tools, sometimes the value you get from a tool is so important that it overrides concerns about support.
 >     
 > 5. Tools that can be useful to non-specialists are preferable to those that are not. We’re talking about tools that lower the cost of getting started; that afford ease of use; that don’t depend on proprietary languages; that have lower transfer and training cost. Microsoft Excel and spreadsheets in general provide a good example. It is possible to use Excel in a very specialized and sophisticated way, but there is a lot Excel can do for you, even if you have only basic skills with it. Exception: Sometimes it can be good for a tool to dissuade non-specialists from using it, because non-specialists may not be capable of using the tool wisely.
