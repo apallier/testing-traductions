@@ -1,4 +1,4 @@
-# Une approche du Test automatique conduite par le contexte
+# Une approche du Test automatique contexto-guidé
 
 > A Context-Driven Approach to Automation in Testing
 
@@ -10,6 +10,11 @@ de James Bach et Michael Bolton
   C'est un travail actuellement toujours en cours.
   
   Traduit avec l'aimable autorisation de James Bach et Mickael Bolton.
+  
+**Traduction de "context-driven"** :
+Après réflexion, j'ai traduit "context-driven" par "contexto-guidé" et non littérallement par "conduit par le contexte".
+Ce mot a l'inconvénient d'être un néologisme mais il traduit bien le fait que "context-driven" est en faite quasiment un adjectif en anglais. De plus il est facile à comprendre de par sa parenté avec des mots du même genre comme "télécommandé" ou "filoguidé".
+J'ai hésité à le traduire par "pragmatique" ou "contextuel" mais il me semblait que le premier était trop général et le second ne traduisait pas la dynamique de conduit ("driven").
 
 -------------------
 
