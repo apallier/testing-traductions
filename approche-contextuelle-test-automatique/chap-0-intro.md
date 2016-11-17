@@ -1,4 +1,4 @@
-# Une approche du Test automatique contexto-guidé
+# Une approche contextuelle du Test automatique
 
 > A Context-Driven Approach to Automation in Testing
 
@@ -12,15 +12,15 @@ de James Bach et Michael Bolton
   Traduit avec l'aimable autorisation de James Bach et Mickael Bolton.
   
 **Traduction de "context-driven"** :
-Après réflexion, j'ai traduit "context-driven" par "contexto-guidé" et non littérallement par "conduit par le contexte".
-Ce mot a l'inconvénient d'être un néologisme mais il traduit bien le fait que "context-driven" est en faite quasiment un adjectif en anglais. De plus il est facile à comprendre de par sa parenté avec des mots du même genre comme "télécommandé" ou "filoguidé".
-J'ai hésité à le traduire par "pragmatique" ou "contextuel" mais il me semblait que le premier était trop général et le second ne traduisait pas la dynamique de conduit ("driven").
+Après réflexion, j'ai traduit "context-driven" par "contextuel" et non littéralement par "conduit/piloté par le contexte" qui me semblait lourd et qui ne traduisait pas le fait que "context-driven" est quasiment un adjectif.
+J'ai hésité à utiliser "contexto-guidé" qui est aussi un adjectif mais qui est un néologisme. Il était facile à comprendre de par sa parenté avec des mots comme "télécommandé" ou "filoguidé".  
+J'ai hésité aussi à le traduire par "pragmatique" mais ce mot me semblait trop général.
 
 -------------------
 
 # Avant-propos
 
-Les outils peuvent être utilisés de manières formidables pour aider au test des logiciels. Cependant, dans toute l'industrie, on voit  des outils mal utilisés. Ceci engendre un grand gaspillage, de la confusion et des difficultés à ce qui est déjà un problème difficile à résoudre. Pourquoi est-ce ainsi ? Que pouvons-nous faire ? Nous pensons que la base du problème vient d'une approche superficielle, restrictive et ritualiste de l'usage des outils. Ce fait est encouragé par la croyance généralisée mais rarement examinée et absolument fausse que le test est un processus mécanique et répétitif. Faire du "bon" test, tout comme programmer, est en réalité un défi intellectuel. L'usage d'outils en test doit absolument être réalisé par des personnes qui comprennent la complexité des outils et des tests. Ceci est vrai pour le test comme pour le développement, mais en réalité pour toutes activités demandant des compétences spécifiques, de la menuiserie à la médecine.
+Les outils peuvent être utilisés de manières formidables pour aider au test des logiciels. Cependant, dans toute l'industrie, nous  voyons des outils mal utilisés. Ceci engendre un grand gaspillage, de la confusion et des difficultés à ce qui est déjà en soi un problème difficile à résoudre. Pourquoi est-ce ainsi ? Que pouvons-nous faire ? Nous pensons que la base du problème vient d'une approche superficielle, restrictive et ritualiste de l'usage des outils. Ce fait est encouragé par la croyance généralisée mais rarement examinée et absolument fausse que le test est un processus mécanique et répétitif. Faire du "bon" test, tout comme programmer, est en réalité un défi intellectuel. L'usage d'outils en test doit absolument être réalisé par des personnes qui comprennent la complexité des outils et des tests. Ceci est vrai pour le test comme pour le développement, mais en réalité pour toutes activités demandant des compétences spécifiques, de la menuiserie à la médecine.
 
 > There are many wonderful ways tools can be used to help software testing. Yet, all across
 industry, tools are poorly applied, which adds terrible waste, confusion, and pain to what is
